@@ -1,0 +1,47 @@
+.header{
+    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);
+    background-size: cover;
+    padding: 5rem 0;
+    /* background-position: 50%; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .barra{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.navegation{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+@media (min-width: 768px){
+    .navegation{
+        margin-top: 0;
+    }
+}
+
+.navegation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+
+.navegation a:hover{
+    background-color: rgb(243, 185, 26);
+}
