@@ -50,8 +50,8 @@ const Footer = () => {
 
         <hr className={styles.hr}/>
 
-        <div>
-            <div>
+        <div className={styles.containIicons}>
+            <div >
                 <Link href="#">
                     <Image className={styles.icon} width={42} height={42} src="/assets/facebook.png" alt='imagen-logo'/>
                 </Link>

@@ -34,3 +34,15 @@
     color: #DD8604;
     height: 2px !important;
 }
+
+.containIicons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containIicons p{
+    color: #fff;
+}
+
