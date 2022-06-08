@@ -2,10 +2,6 @@
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);
     background-size: cover;
     padding: 5rem 0;
-    /* background-position: 50%; */
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
 }
 
 .barra{
@@ -20,14 +16,23 @@
     }
 }
 
+.logo{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover{
+    filter: brightness(0.8);
+}
+
 .navegation{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 3rem;
 }
 @media (min-width: 768px){
     .navegation{
         margin-top: 0;
+        gap: 2rem;
     }
 }
 
@@ -43,5 +48,11 @@
 }
 
 .navegation a:hover{
-    background-color: rgb(243, 185, 26);
+    background-color: rgb(221 134 4);
+}
+
+.nave{
+    background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);
+    background-size: cover;
+    padding: 5rem 0;
 }

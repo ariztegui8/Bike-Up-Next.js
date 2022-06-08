@@ -4,11 +4,13 @@ import styles from '../styles/Header.module.css'
 
 const Header = () => {
   return (
+      <>
+      
    <header className={styles.header}>
       <div className='container-header'>
         <div className={styles.barra}>
             <Link href="/">
-                <Image width={200} height={100} src="/assets/logo.svg" alt='imagen-logo'/>
+                <Image className={styles.logo} width={200} height={100} src="/assets/logo.svg" alt='imagen-logo'/>
             </Link>
 
             <nav className={styles.navegation}>
@@ -20,6 +22,8 @@ const Header = () => {
         </div>
       </div>
    </header>
+
+   </>
   )
 }
 

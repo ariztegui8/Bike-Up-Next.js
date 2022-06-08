@@ -1,0 +1,36 @@
+.footer{
+    background-image: linear-gradient(to right, rgb(0 0 0 / .9), rgb(0 0 0 / .9)), url(../public/assets/footer.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.logo{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo:hover{
+    filter: brightness(0.8);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 20px 0;
+}
+
+.columna{
+
+}
+
+.columna h4{
+    color: #DD8604;
+}
+
+.columna p{
+    color: #fff;
+}
+
+.hr{
+    color: #DD8604;
+    height: 2px !important;
+}
