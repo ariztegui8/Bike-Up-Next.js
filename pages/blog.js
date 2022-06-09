@@ -6,7 +6,7 @@ const Blog = () => {
     <Layout
         pagina='Blog'
       >
-        <h1>Desde Blog</h1>
+        <h1>Desde Blog actualizado</h1>
 
       </Layout>
   )
