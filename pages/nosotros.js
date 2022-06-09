@@ -9,7 +9,7 @@ const Nosotros = () => {
         pagina='Nosotros'
        >
         <main className='container py-4'>
-          <h2 className={styles.title}>Nosotros</h2>
+          <h2 className={styles.title}>Nosotros y tu madre</h2>
 
           <div className={`row ${styles.containerNosotros}`}>
             <div className='col-xs-12 col-sm-12 col-md-12 col-lg-6'>
