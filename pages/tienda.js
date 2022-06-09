@@ -6,7 +6,7 @@ const Tienda = () => {
     <Layout
         pagina='Tienda'
       >
-        <h1>Desde Tienda mia</h1>
+        <h1>Desde Tienda mia bobos</h1>
 
       </Layout>
   )
