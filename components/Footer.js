@@ -7,38 +7,38 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
         <div className={styles.container}>
-            <div className={styles.columna}>
+            <div className={styles.columna1}>
                 <Link href="/">
-                    <Image className={styles.logo} width={200} height={100} src="/assets/logo.svg" alt='imagen-logo'/>
+                    <Image className={styles.logo} width={150} height={75} src="/assets/logo.svg" alt='imagen-logo'/>
                 </Link>
-                <h4>Abouts Us</h4>
-                <p>lorendwedddwdedwedwedwedwe</p>
+                <h5 className='mt-4'>Abouts Us</h5>
+                <p>2022 Best Ecommerce</p>
             </div>
 
-            <div className={styles.columna}>
-                <h4>Contacts Us</h4>
-                <p>+54 2494597241</p>
-                <p>jorgeariztegui8@gmail.com</p>
+            <div className={styles.columna2}>
+                <h5>Contacts Us</h5>
+                <Link href="#">+54 2494597241</Link>
+                <Link href="#">jorgeariztegui8@gmail.com</Link>
             </div>
 
-            <div className={styles.columna}>
-                <h4>Information</h4>
-                <p>Abouts Us</p>
-                <p>Blog</p>
-                <p>Events</p>
-                <p>Gallery</p>
+            <div className={styles.columna3}>
+                <h5>Information</h5>
+                <Link href="#">Abouts Us</Link>
+                <Link href="#">Blog</Link>
+                <Link href="#">Events</Link>
+                <Link href="#">Gallery</Link>
             </div>
 
-            <div className={styles.columna}>
-            <h4>Links</h4>
-                <p>Services</p>
-                <p>Support</p>
-                <p>Privacy Policy</p>
-                <p>Terns & conditions</p>
+            <div className={styles.columna4}>
+                <h5>Links</h5>
+                <Link href="#">Services</Link>
+                <Link href="#">Support</Link>
+                <Link href="#">Privacy Policy</Link>
+                <Link href="#">Terns & conditions</Link>
             </div>
 
-            <div className={styles.columna}>
-                <h4>Abouts Us</h4>
+            <div className={styles.columna5}>
+                <h5>Subscribe Us</h5>
                 <input
                     type="text"
                     placeholder='Enter Your Email'
@@ -51,18 +51,18 @@ const Footer = () => {
         <hr className={styles.hr}/>
 
         <div className={styles.containIicons}>
-            <div >
+            <div className={styles.icons}>
                 <Link href="#">
-                    <Image className={styles.icon} width={42} height={42} src="/assets/facebook.png" alt='imagen-logo'/>
+                    <Image width={40} height={40} src="/assets/fb.svg" alt='imagen-logo'/>
                 </Link>
                 <Link href="#">
-                    <Image className={styles.icon} width={42} height={42} src="/assets/twitter.png" alt='imagen-logo'/>
+                    <Image width={40} height={40} src="/assets/tw.svg" alt='imagen-logo'/>
                 </Link>
                 <Link href="#">
-                    <Image className={styles.icon} width={42} height={42} src="/assets/instagram.png" alt='imagen-logo'/>
+                    <Image width={40} height={40} src="/assets/in.svg" alt='imagen-logo'/>
                 </Link>
                 <Link href="#">
-                    <Image className={styles.icon} width={42} height={42} src="/assets/youtube.png" alt='imagen-logo'/>
+                    <Image width={40} height={40} src="/assets/yt.svg" alt='imagen-logo'/>
                 </Link>
             </div>
 

@@ -1,7 +1,7 @@
 .footer{
     background-image: linear-gradient(to right, rgb(0 0 0 / .9), rgb(0 0 0 / .9)), url(../public/assets/footer.jpg);
     background-size: cover;
-    height: 350px;
+    padding: 1rem;
 }
 
 .logo{
@@ -14,20 +14,46 @@
 
 .container{
     display: flex;
-    justify-content: space-evenly;
-    padding: 40px 0 20px 0;
+    justify-content: space-around;
+    padding: 30px 0 0 0;
 }
 
-.columna{
-
+.columna1 , .columna2, .columna3, .columna4, .columna5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
-.columna h4{
+.columna1 h5, .columna2 h5, .columna3 h5, .columna4 h5, .columna5 h5{
     color: #DD8604;
 }
+.columna1 p{
+    color: #FFF;
+}
 
-.columna p{
-    color: #fff;
+.columna2 a , .columna3 a, .columna4 a{
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 5px;;
+}
+
+.columna5 input{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 5px 0;
+}
+.columna5 button{
+    border-radius: 7px;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #DD8604;
+    color: #FFF;
+    margin: 0 auto;
 }
 
 .hr{
@@ -41,8 +67,16 @@
     flex-direction: column;
     align-items: center;
 }
-
 .containIicons p{
-    color: #fff;
+    color: #FFF;
+}
+
+.icons{
+    gap: 2rem;
+    display: flex;
+    margin: 20px 0;
+}
+.icons image:hover{
+    cursor: pointer;
 }
 

@@ -1,0 +1,9 @@
+.containerNosotros{
+    display: flex;
+}
+
+.title{
+    color: #DD8604;
+    text-align: center;
+    margin: 20px 0;
+}
