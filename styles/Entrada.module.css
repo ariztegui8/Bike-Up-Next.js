@@ -1,0 +1,30 @@
+.entrada a{
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #FFF;
+    color: #DD8604;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #DD8604;
+    transition: 0.5s;
+}
+.entrada a:hover{
+    background-color: #DD8604;
+    color: #FFF;
+}
+
+.fecha{
+    font-size: 14px;
+    color: #DD8604;
+    
+}
+
+.resumen{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}

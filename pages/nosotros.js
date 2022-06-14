@@ -13,7 +13,7 @@ const Nosotros = () => {
 
           <div className={styles.containerNosotros}>
             <div className={styles.containerImg}>
-              <Image width={600} height={450} src="/assets/blog.jpg" alt='foto-blog'/>
+              <Image layout='responsive' width={600} height={450} src="/assets/blog.jpg" alt='foto-blog'/>
             </div>
            
 

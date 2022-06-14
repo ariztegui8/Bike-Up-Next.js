@@ -1,0 +1,19 @@
+.blog{
+    display: grid;
+}
+@media (min-width: 768px){
+    .blog{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width: 992px){
+    .blog{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.title{
+    color: #DD8604;
+    text-align: center;
+    padding: 30px;
+}

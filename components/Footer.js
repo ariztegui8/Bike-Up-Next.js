@@ -9,7 +9,9 @@ const Footer = () => {
         <div className={styles.container}>
             <div className={styles.columna1}>
                 <Link href="/">
-                    <Image className={styles.logo} width={150} height={75} src="/assets/logo.svg" alt='imagen-logo'/>
+                    <a>
+                        <Image className={styles.logo} width={150} height={75} src="/assets/logo.svg" alt='imagen-logo'/>
+                    </a>
                 </Link>
                 <h5 className='mt-4'>Abouts Us</h5>
                 <p>2022 Best Ecommerce</p>
@@ -53,16 +55,24 @@ const Footer = () => {
         <div className={styles.containIicons}>
             <div className={styles.icons}>
                 <Link href="#">
-                    <Image width={40} height={40} src="/assets/fb.svg" alt='imagen-logo'/>
+                    <a>
+                        <Image width={40} height={40} src="/assets/fb.svg" alt='imagen-logo'/>
+                    </a>
                 </Link>
                 <Link href="#">
-                    <Image width={40} height={40} src="/assets/tw.svg" alt='imagen-logo'/>
+                    <a>
+                        <Image width={40} height={40} src="/assets/tw.svg" alt='imagen-logo'/>
+                    </a>
                 </Link>
                 <Link href="#">
-                    <Image width={40} height={40} src="/assets/in.svg" alt='imagen-logo'/>
+                    <a>
+                        <Image width={40} height={40} src="/assets/in.svg" alt='imagen-logo'/>
+                    </a>
                 </Link>
                 <Link href="#">
-                    <Image width={40} height={40} src="/assets/yt.svg" alt='imagen-logo'/>
+                    <a>
+                        <Image width={40} height={40} src="/assets/yt.svg" alt='imagen-logo'/>
+                    </a>
                 </Link>
             </div>
 
