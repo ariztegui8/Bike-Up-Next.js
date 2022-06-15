@@ -1,0 +1,36 @@
+.bike{
+    grid-template-columns: repeat(3,1fr);
+}
+@media (min-width: 768px){
+    .bike{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width: 992px){
+    .bike{
+        display: grid;
+    grid-template-columns: 3fr 3fr;
+    column-gap: 1rem;
+    align-items: center;
+    padding: 80px 0;
+        
+    }
+}
+
+.containerBike{
+    padding: 20px;
+    text-align: center;
+}
+
+.containerBike h3{
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.precio{
+    font-size: 40px;
+    font-weight: 600;
+    color: #DD8604;
+    
+}
+

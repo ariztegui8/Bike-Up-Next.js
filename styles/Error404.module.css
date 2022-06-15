@@ -1,0 +1,32 @@
+.contendor404{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.parrafo1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.parrafo2{
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.contendor404 a{
+    border-radius: 7px;
+    padding: 10px 70px;
+    text-align: center;
+    background-color: #DD8604;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #DD8604;
+    transition: 0.5s;
+}
+.contendor404 a:hover{
+    background-color: #FFF;
+    color: #DD8604;
+}

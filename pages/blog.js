@@ -5,11 +5,14 @@ import styles from '../styles/Blog.module.css'
 
 const Blog = ({entrada}) => {
 
+  // const url = `${process.env.NEXT_PUBLIC_API_URL}/blogs`
+  
+
   return (
     <Layout
         pagina='Blog'
       >
-        <main>
+        <main className='container'>
           <h2 className={styles.title}>Blog</h2>
 
           <div className={styles.blog}>
@@ -26,9 +29,9 @@ const Blog = ({entrada}) => {
   )
 }
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
 
-    const url = 'http://localhost:1337/blogs';
+    const url = `${process.env.API_URL}/blogs?_sort=created_at:desc`;
     const respuesta = await fetch(url);
     const entrada = await respuesta.json();
 

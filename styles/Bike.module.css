@@ -1,0 +1,52 @@
+.bike{
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+.bike img{
+    overflow: hidden;
+    transition: 0.6s;
+}
+.bike img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.containerBike h3{
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.descripcion{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.precio{
+    font-size: 40px;
+    font-weight: 600;
+    color: #DD8604;
+    text-align: right;
+    padding: 0 40px;
+}
+
+.containerBike a{
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #FFF;
+    color: #DD8604;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #DD8604;
+    transition: 0.5s;
+}
+.containerBike a:hover{
+    background-color: #DD8604;
+    color: #FFF;
+}

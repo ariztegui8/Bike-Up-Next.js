@@ -1,0 +1,14 @@
+.containerListado{
+    display: grid;
+    gap: 2rem;
+}
+@media (min-width: 768px){
+    .containerListado{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width: 992px){
+    .containerListado{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

@@ -1,0 +1,19 @@
+.title{
+    color: #DD8604;
+    text-align: center;
+    padding: 30px;
+}
+
+.fecha{
+    margin-top: 10px;
+    color: #DD8604; 
+}
+
+.containerId{
+    max-width: 800px;
+}
+
+.texto{
+    white-space: pre-wrap;
+}
+

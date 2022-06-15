@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "bicis",
   "info": {
-    "name": "Blog",
+    "name": "Bikes",
     "description": ""
   },
   "options": {
@@ -12,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titulo": {
-      "type": "string"
-    },
-    "resumen": {
+    "nombre": {
       "type": "string",
       "required": true
+    },
+    "descripcion": {
+      "type": "richtext"
     },
     "imagen": {
       "collection": "file",
@@ -31,13 +31,12 @@
       "required": true,
       "pluginOptions": {}
     },
-    "contenido": {
-      "type": "richtext",
-      "required": true
+    "precio": {
+      "type": "decimal"
     },
     "url": {
       "type": "uid",
-      "targetField": "titulo"
+      "targetField": "nombre"
     }
   }
 }

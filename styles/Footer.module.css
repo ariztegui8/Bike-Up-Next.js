@@ -33,7 +33,11 @@
 .columna2 a , .columna3 a, .columna4 a{
     text-decoration: none;
     color: #FFF;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+.columna2 a:hover , .columna3 a:hover, .columna4 a:hover{
+    color:#adaaaa;
 }
 
 .columna5 input{

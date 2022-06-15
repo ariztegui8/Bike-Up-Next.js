@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 
 const Header = () => {
+
   return (
       <>
       
@@ -17,9 +18,11 @@ const Header = () => {
 
             <nav className={styles.navegation}>
                 <Link href='/'>Inicio</Link>
-                <Link href='/nosotros'>Nosotros</Link>
-                <Link href='/blog'>Blog</Link>
                 <Link href='/tienda'>Tienda</Link>
+                <Link href='/blog'>Blog</Link>
+                <Link href='/nosotros'>Nosotros</Link>
+                
+                
             </nav>
         </div>
       </div>
