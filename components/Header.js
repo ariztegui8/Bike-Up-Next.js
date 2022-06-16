@@ -12,7 +12,7 @@ const Header = () => {
         <div className={styles.barra}>
             <Link href="/">
                 <a>
-                  <Image className={styles.logo} width={200} height={100} src="/assets/logo.svg" alt='imagen-logo'/>
+                  <Image className={styles.logo} width={150} height={75} src="/assets/logo.svg" alt='imagen-logo'/>
                 </a>
             </Link>
 
@@ -22,7 +22,7 @@ const Header = () => {
                 <Link href='/blog'>Blog</Link>
                 <Link href='/nosotros'>Nosotros</Link>
                 <Link href='/carrito'>
-                  <Image layout='fixed' width={42} height={45} src="/assets/carrito1.svg" alt='imagen-carrito'/>
+                  <Image layout='fixed' width={42} height={45} src="/assets/carrito1.svg" alt='imagen-carrito' fill="currentColor"/>
                 </Link>
                 
                 

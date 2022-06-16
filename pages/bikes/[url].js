@@ -3,23 +3,36 @@ import { useState } from 'react';
 import Layout from '../../components/Layout';
 import styles from '../../styles/BikeUrl.module.css';
 
-const ProductoBike = ({bike}) => {
+const ProductoBike = ({bike, agregarCarrito}) => {
 
-    const [contador, setContador] = useState(0);
+    const [cantidad, setCantidad] = useState(1);
 
-    const sumar = ()=>{
-        setContador( contador + 1)
+
+    const handleChange = e =>{
+        setCantidad(parseInt(e.target.value))
     }
 
-    const restar = ()=>{
-        setContador( contador - 1)
+
+    const handleSubmit = e =>{
+        e.preventDefault()
+
+        if(cantidad < 1) {
+            alert('Cantidad no valida')
+            return
+        }
+
+        const bikeSeleccionada = {
+            id,
+            imagen: imagen[0].url,
+            nombre,
+            precio,
+            cantidad,
+        };
+
+        agregarCarrito(bikeSeleccionada);
     }
 
-    const reset = ()=>{
-        setContador( contador )
-    }
-
-    const {descripcion, imagen, nombre, precio} = bike;
+    const {descripcion, imagen, nombre, precio, id} = bike;
 
   return (
         <Layout
@@ -32,9 +45,15 @@ const ProductoBike = ({bike}) => {
                     <p className={styles.descripcion}>{descripcion}</p>
                     <p className={styles.precio}>${precio}</p>
 
-                    <form>
+                    <form
+                        className={styles.form}
+                        onSubmit={handleSubmit}
+                    >
                         <label>Cantidad:</label>
-                        <select>
+                        <select
+                            value={cantidad}
+                            onChange={handleChange}
+                        >
                             <option value="">-- Seleccione --</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -54,19 +73,6 @@ const ProductoBike = ({bike}) => {
                         />
                     </form>
 
-                    <div>
-                        <label>Cantidad</label>
-                        <div className='d-flex'>
-                            <button onClick={restar}>-</button>
-                            <p>{contador}</p>
-                            <button onClick={sumar}>+</button>
-                        </div>
-
-                        <input 
-                            type="submit"
-                            value="Agregar al Carrito"
-                        />
-                    </div>
                 </div>
             </div>
         </Layout>

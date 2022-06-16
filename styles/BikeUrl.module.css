@@ -9,7 +9,7 @@
 @media (min-width: 992px){
     .bike{
         display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 3fr 2fr;
     column-gap: 1rem;
     align-items: center;
     padding: 80px 0;
@@ -31,6 +31,47 @@
     font-size: 40px;
     font-weight: 600;
     color: #DD8604;
-    
+}
+
+.form{
+    display: grid;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form label{
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.form select{
+    padding: 7px 0;
+    margin-bottom: 15px;
+    border: 1px solid #DD8604;
+    outline: none;
+    text-align: center;
+}
+
+.form option{
+    font-size: 18px;
+}
+
+.form input{
+    padding: 7px 0;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #DD8604;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #DD8604;
+    transition: 0.5s;
+}
+.form input:hover{
+    background-color: #FFF;
+    color: #DD8604;
 }
 

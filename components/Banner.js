@@ -7,7 +7,7 @@ const Banner = ({inicio}) => {
 
 
   return (
-        <Carousel fade className='py-1'>
+        <Carousel fade className=''>
             <Carousel.Item>
                 <Image layout='responsive' width={1200} height={400} src={inicio[0].imagen[0].url} alt={`imagen banner`}/>
 

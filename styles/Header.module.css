@@ -1,7 +1,8 @@
 .header{
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);
     background-size: cover;
-    padding: 5rem 0;
+    padding: 1rem 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2)!important;
     /* height: 100vh; */
     /* background-attachment: fixed; */
 }
@@ -55,13 +56,13 @@
 }
 
 .navegation img {
-   background-color: #DD8604;
+  
 }
 
 .navegation img:hover {
     cursor: pointer;
+    filter: brightness(0.8);
  }
-
 
 .nave{
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);

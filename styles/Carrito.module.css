@@ -13,3 +13,78 @@
     text-align: center;
     padding: 30px;
 }
+
+.carrito{
+    
+}
+
+.producto{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #DD8604;
+    position: relative;
+}
+
+.producto:last-of-type{
+    border: none;
+}
+
+.nombre{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.cantidad{
+    font-size: 18px;
+    margin: 0;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: 800;
+    color: #DD8604;
+}
+
+.subtotal{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.select{
+    margin-bottom: 15px;
+    padding: 7px 0;
+    margin-bottom: 15px;
+    border: 1px solid #DD8604;
+    outline: none;
+    text-align: center;
+    width: 40%;
+}
+
+.button{
+    position: absolute;
+    top: 0;
+    right: 6rem;
+    font-weight: bold;
+    border: none;
+    background-color: #efbe75;
+    padding: 3px 15px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.resumen{
+    background-color: #efbe75;
+    border-radius: 7px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.pedido{
+    margin-bottom: 20px;
+}
