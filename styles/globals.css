@@ -1,3 +1,21 @@
 *{
     font-family: 'Lato', sans-serif;
 }
+
+.carousel-caption{
+    bottom: 3rem !important;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.carousel-caption h3{
+    font-size: 50px !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px!important;
+}
+
+.carousel-caption p{
+    font-size: 20px !important;
+    margin-bottom: 30px!important;
+}

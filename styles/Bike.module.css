@@ -4,6 +4,10 @@
     border-radius: 7px;
 }
 
+.nombre{
+    font-weight: 600;
+}
+
 .bike img{
     overflow: hidden;
     transition: 0.6s;
@@ -23,6 +27,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+    margin-top: 15px
 }
 
 .precio{

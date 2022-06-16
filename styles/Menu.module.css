@@ -1,0 +1,24 @@
+.menu{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu img{
+    transition: 0.7s;
+}
+
+.menu img:hover{
+    cursor: pointer;
+    filter: brightness(0.4);
+}
+
+.title{
+    font-size: 28px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.descripcion{
+    font-weight: 600;
+    font-size: 18px;
+}

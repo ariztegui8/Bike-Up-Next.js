@@ -30,6 +30,7 @@
     display: flex;
     gap: 1rem;
     margin-top: 3rem;
+    align-items: center;
 }
 @media (min-width: 768px){
     .navegation{
@@ -52,6 +53,15 @@
 .navegation a:hover{
     background-color: #DD8604;
 }
+
+.navegation img {
+   background-color: #DD8604;
+}
+
+.navegation img:hover {
+    cursor: pointer;
+ }
+
 
 .nave{
     background-image: linear-gradient(to right, rgb(0 0 0 / .8), rgb(0 0 0 / .7)), url(../public/assets/banner.jpg);

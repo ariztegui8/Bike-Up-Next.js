@@ -21,6 +21,9 @@ const Header = () => {
                 <Link href='/tienda'>Tienda</Link>
                 <Link href='/blog'>Blog</Link>
                 <Link href='/nosotros'>Nosotros</Link>
+                <Link href='/carrito'>
+                  <Image layout='fixed' width={42} height={45} src="/assets/carrito1.svg" alt='imagen-carrito'/>
+                </Link>
                 
                 
             </nav>

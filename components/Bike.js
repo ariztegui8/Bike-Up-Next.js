@@ -8,9 +8,10 @@ const Bike = ({bike}) => {
 
   return (
     <div className={styles.bike}>
+        <h3 className={styles.nombre}>{nombre}</h3>
         <Image layout='responsive' width={500} height={350} src={imagen[0].url} alt={`imagen bike ${nombre}`}/>
         <div className={styles.containerBike}>
-            <h3>{nombre}</h3>
+            
             <p className={styles.descripcion}>{descripcion}</p>
             <p className={styles.precio}>${precio}</p>
             <Link href={`bikes/${url}`}>

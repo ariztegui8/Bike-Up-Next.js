@@ -1,0 +1,15 @@
+.contenido{
+    display: grid;
+    gap: 2rem
+}
+@media (min-width:768px) {
+    .contenido{
+        grid-template-columns: 3fr 2fr;
+    }
+}
+
+.title{
+    color: #DD8604;
+    text-align: center;
+    padding: 30px;
+}
